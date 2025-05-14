@@ -1,0 +1,17 @@
+simze@pop-os:~/web3-project/starknet-africa-bootcamp$ scarb new hello_world
+✔ Which test runner do you want to set up? · Starknet Foundry (default)
+ Downloading snforge_std v0.41.0
+ Downloading snforge_scarb_plugin v0.41.0
+Created `hello_world` package.
+simze@pop-os:~/web3-project/starknet-africa-bootcamp$ cd hello_world
+simze@pop-os:~/web3-project/starknet-africa-bootcamp/hello_world$ scarb --version
+scarb 2.11.4 (c0ef5ec6a 2025-04-09)
+cairo: 2.11.4 (https://crates.io/crates/cairo-lang-compiler/2.11.4)
+sierra: 1.7.0
+
+simze@pop-os:~/web3-project/starknet-africa-bootcamp/hello_world$ snforge --version
+snforge 0.41.0
+simze@pop-os:~/web3-project/starknet-africa-bootcamp/hello_world$ scarb build
+   Compiling hello_world v0.1.0 (/home/simze/web3-project/starknet-africa-bootcamp/hello_world/Scarb.toml)
+    Finished `dev` profile target(s) in 11 seconds
+simze@pop-os:~/web3-project/starknet-africa-bootcamp/hello_world$

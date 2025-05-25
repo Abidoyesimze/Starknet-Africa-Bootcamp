@@ -1,7 +1,7 @@
 #[starknet::interface]
  trait INotebookContract<TContractState> {
     fn read_message(ref self: TContractState) -> felt252;
-    fn write_message(ref self: TContractState, message: felt252)
+    fn write_message(ref self: TContractState, message: felt252);
 
  }
 
